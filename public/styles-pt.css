@@ -1,0 +1,188 @@
+body {
+	font-family: "Montserrat";
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+
+p {
+	color: #8f8f8f;
+	line-height: 2;
+	font-weight: 400;
+}
+
+em {
+
+	font-weight: 500;
+}
+
+hr {
+	border-color: #C8C6C6;
+	border-top-style: solid;
+	border-width: 1px;
+	height: 0px;
+	width: 100%;
+}
+
+a:link {
+  text-decoration: underline;
+		font-weight: 500;
+}
+
+a:visited {
+  text-decoration: none;
+			font-weight: 400;
+			color: #8f8f8f;
+}
+
+.email{
+	font-size: 0.8rem;
+	line-height: 0.5;
+	text-align: right;
+}
+
+.title-line{
+
+	border-width: 4px;
+}
+
+/* Container */
+.container-fluid {
+	padding: 3% 15%;
+	text-align: left;
+}
+
+/* Sections */
+.class-section {
+	background-color: #FFFFFF;
+	color: black;
+}
+
+/* Heading */
+.big-heading {
+	font-family: 'Montserrat, sans-serif';
+	font-size: 2.5rem;
+	line-height: 1.5;
+	font-weight: bold;
+	text-align: right;
+}
+
+.section-heading {
+	/* font-size: 1.5rem; */
+	/* line-height: 1; */
+}
+
+/* Navigation Bar */
+.navbar {
+	padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding: 0 45px 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Montserrat-Light";
+}
+
+/* Title Section */
+#title .container-fluid {
+	padding: 3% 15% 5%;
+	text-align: left;
+}
+
+/* Title image */
+.title-image {
+	width: 12%;
+	position: absolute;
+}
+
+/* Experience */
+#experience {
+	position: relative;
+}
+
+.sub-position{
+	font-size: 0.7rem;
+}
+
+.experience-text {
+	margin-bottom: 0;
+}
+
+/* Education */
+#skills {
+	padding: 100px;
+	background-color: #E3F6F5;
+}
+
+.education-column {
+	padding: 3% 2%;
+}
+
+/* <!-- Footer --> */
+#footer {
+	background-color: white;
+}
+
+#footer .container-fluid {
+	padding-top: 0;
+}
+
+.brands {
+	text-align: center;
+	font-size: 2rem;
+	margin: 0 20px;
+	color: #8f8f8f;
+}
+
+/* Contact me */
+
+/* label{
+	font-size: 3rem;
+} */
+
+.contactme {
+	width: 12%;
+}
+
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+
+	.navbar-brand {
+		font-size: 2.0rem;
+		font-weight: bold;
+	}
+
+	#title .container-fluid {
+		padding: 3% 15% 7%;
+		text-align: center;
+	}
+
+	.title-image {
+		position: static;
+		width: 50%;
+	}
+
+	.big-heading {
+		text-align: center;
+		font-size: 1.3rem;
+	}
+
+
+	/* .contactme {
+		width: 20%;
+	}
+} */
